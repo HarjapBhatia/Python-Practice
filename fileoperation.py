@@ -12,3 +12,9 @@ y2 = x.readline()
 y3 = x.readline()
 print(y1 + y3)
 x.close()
+
+# writing in the file
+x = open("new2.txt", "w")
+x.write("this is 1st line\n")
+x.write("this is 2nd line")
+x.close()
