@@ -1,11 +1,11 @@
-# oepning and reading the file content
+# opening and reading the file content
 
-# x = open("new.txt","r")
-# y = x.read()
-# print(y)
-# x.close()
+x = open("new.txt","r")
+y = x.read()
+print(y)
+x.close()
 
-#
+# reading by line
 x = open("new.txt","r")
 y1 = x.readline()
 y2 = x.readline()
